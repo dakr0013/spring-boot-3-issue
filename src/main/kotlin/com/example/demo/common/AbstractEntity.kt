@@ -1,8 +1,8 @@
 package com.example.demo.common
 
 import java.io.Serializable
-import javax.persistence.Embedded
-import javax.persistence.MappedSuperclass
+import jakarta.persistence.Embedded
+import jakarta.persistence.MappedSuperclass
 import org.springframework.data.jpa.domain.AbstractPersistable
 
 @MappedSuperclass

@@ -1,7 +1,7 @@
 package com.example.demo.user
 
 import com.example.demo.common.AbstractEntity
-import javax.persistence.Entity
+import jakarta.persistence.Entity
 
 @Entity
 class UserEntity : AbstractEntity<Long, UserId>() {
